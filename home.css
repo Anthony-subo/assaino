@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(hme.jpg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    cursor: pointer;   
+}
+ul{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+ul li{
+    margin-left: 60px;
+    list-style: none;
+    margin-top: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: #fff;
+    transition: 2s ease;
+
+}
+ul li a:active{
+    color: blue;
+}
+h1{
+    top: 38%;
+    left: 38%;
+    transform: translate(-50,-50);
+    position: absolute;
+    color: black;
+}
+h2{
+    top: 44%;
+    left: 40%;
+    transform: translate(-50,50);
+    position: absolute;
+    color: black;
+}

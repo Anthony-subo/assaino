@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header nav{
+    color: black;
+}
+ul{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+ul li{
+    margin-left: 60px;
+    color: black;
+    list-style: none;
+    margin-top: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: red;
+    transition: 2s ease;
+    border:10px;
+    cursor: pointer;
+
+}
+ul li a:active{
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+p{
+    margin-top: 10px;
+}
+img{
+    position: relative;
+    float: right;
+    width: 700px;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.b{
+    margin-top: 0px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 40px;
+}
+.campus-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.campus-col img{
+    width: 100%;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(226,0, 0, 0.5);
+}
