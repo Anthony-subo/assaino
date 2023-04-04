@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url(hme.jpg);
+    background-image: url(3183114.jpg);
     background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +25,7 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 ul li a:hover{
     color: #fff;
@@ -40,12 +40,12 @@ h1{
     left: 38%;
     transform: translate(-50,-50);
     position: absolute;
-    color: black;
+    color: white;
 }
 h2{
     top: 44%;
     left: 40%;
     transform: translate(-50,50);
     position: absolute;
-    color: black;
+    color: white;
 }
