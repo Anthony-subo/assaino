@@ -2,7 +2,19 @@
     margin: 0;
     padding: 0;
 }
-body{
+.logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 80%;
+    left: 4%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7));
     background-image: url(3183114.jpg);
     background-position: absolute;
     background-repeat: no-repeat;
@@ -22,6 +34,7 @@ ul li{
     margin-left: 60px;
     list-style: none;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 ul li a{
     text-decoration: none;
@@ -41,6 +54,7 @@ h1{
     transform: translate(-50,-50);
     position: absolute;
     color: white;
+    background-color: rgb(0, 0, 0.6);
 }
 h2{
     top: 44%;
@@ -48,4 +62,55 @@ h2{
     transform: translate(-50,50);
     position: absolute;
     color: white;
+    background-color: rgb(0, 0, 0.6);
+}
+p{
+    top: 51%;
+    left: 10%;
+    transform: translate(-50,-50);
+    position: absolute;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgb(0, 0, -1);
+}
+p a{
+    margin-left: 450px;
+    background-color: rgb(0, 0, 0.6);
+    font-size: italic;
+}
+@media(max-width:700px){
+    .media h1{
+        top: 38%;
+        left: 38%;
+        transform: translate(-50,-50);
+        position: absolute;
+        color: white;
+        background-color: rgb(0, 0, 0.6);
+    }
+    .media h2{
+        top: 44%;
+        left: 40%;
+        transform: translate(-50,50);
+        position: absolute;
+        color: white;
+        background-color: rgb(0, 0, 0.6);
+    }
+    .media p{
+        top: 51%;
+        left: 10%;
+        transform: translate(-50,-50);
+        position: absolute;
+        color: white;
+        font-size: large;
+        font-weight: bold;
+        background-color: rgb(0, 0, -1);
+    }
+    p a{
+        margin-left: 450px;
+        background-color: rgb(0, 0, 0.6);
+        font-size: italic;
+    }
+
+
 }
