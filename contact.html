@@ -42,31 +42,31 @@
             </div>
         </section> 
         <div class="fom">
-            <form action="">
+            <form action="mailto:saikakatoni@gmail.com" method="post" enctype="text/plain">
              <fieldset style="width: 600px;">
               <legend style="text-decoration: underline;color: red;">PERSONAL DETAILS</legend><br>
               <Label for="name">FIRST NAME:</Label>
-              <input type="text" placeholder="your name"><br><br>
+              <input type="text" name="name" placeholder="your name"><br><br>
               <Label for="name">SECOND NAME:</Label>
-              <input type="text" placeholder="you second name"><br><br>
+              <input type="text" name="name" placeholder="you second name"><br><br>
               <label>GENDER:</label><br>
                <label>MALE</label>
-              <input type="radio">
+              <input type="radio"  checked="checked" name="sex" value="male">
               <label>FEMALE</label>
-              <input type="radio"><br><br>
+              <input type="radio" checked="checked" name="sex" value="female"><br><br>
               <label>EMAIL:</label>
-              <input type="email" placeholder="example@gmail.com"><br><br>
+              <input type="email" name="email" placeholder="example@gmail.com"><br><br>
               <label>YEAR</label>
               <input type="date"><br><br>
               <label>COMMENTS:</label>
-              <input type="textarea" ><br><br>
+              <input type="textarea" name="text" placeholder="write you comment"><br><br>
               <LABEL>DO You Want To Receive Our News?.</LABEL><br>
               <label>YES</label>
-              <input type="radio">
+              <input type="radio" checked="checked" name="news" value="yes">
               <LABEL>NO</LABEL>
-              <input type="radio"><br><br>
+              <input type="radio" checked="checked" name="news" value="no"><br><br>
               <input type="submit" value="submit" onclick="SubmitEvent">
-              <input type="reset" value="reset">
+              <input type="reset" value="reset" name="submit">
              </fieldset>
         </div>
             </form>
